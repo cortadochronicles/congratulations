@@ -1,0 +1,86 @@
+body {
+	 background-color: lightyellow;
+  font-family: Ballet;
+	 margin: 1rem auto;
+	 max-width: 80rem;
+   text-align: center;
+}
+
+h2 {
+  font-family: Libre Baskerville;
+  margin-left: 300px; 
+  margin-right: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+ h1 {
+	
+	 margin-bottom: 1rem;
+   font-size: 8rem;
+   font-family: ;
+   font-weight: 100;
+   animation: gradient 5s ease infinite;
+}
+/*https://codingartistweb.com/2020/01/gold-text-effect-css-text-effect/*/
+.gold{
+  // letter-spacing: 5px;
+   background-image: linear-gradient(
+	to right,
+	#462523 0,
+  #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+  
+   color:transparent;
+   -webkit-background-clip:text;
+}
+/*sparkles*/
+.sparkles{
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2728.png) 36 36, auto;
+}
+
+@keyframes gradient {
+	0% {
+		color: transparent;
+	}
+  	10% {
+		color: red;
+	}
+  	20% {
+		color: orange;
+	}
+  	30% {
+		color: yellow;
+	}
+  	40% {
+		color: green;
+	}
+  	50% {
+		color: blue;
+	}
+  	60% {
+		color: indigo;
+	}
+  	70% {
+		color: violet;
+	}
+  	80% {
+		color: white;
+	}
+  	90% {
+		color: transparent;
+	}
+
+}
+
+font-family: 'Ballet', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
